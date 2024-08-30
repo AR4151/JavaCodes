@@ -6,6 +6,7 @@ abstract class Abs {
 }
 class AA extends Abs{
 
+
     @Override
     void aa() {
         System.out.println("Hello");

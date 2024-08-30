@@ -12,10 +12,10 @@ public class Conversion {
 
     public static void main(String[] args) {
         Conversion cs = new Conversion();
-        cs.m1(15);
-        cs.m1('a');
-        cs.m1(10.5f);
-        cs.m1(10);
+        cs.m1(15);  // 15
+        cs.m1('a'); // 97
+        cs.m1(10.5f); // 10.5
+        cs.m1(10); // 10
         //cs.m1(10.5);
     }
 }
