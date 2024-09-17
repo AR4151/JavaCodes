@@ -1,0 +1,7 @@
+Summary of Key Methods
+Creation & Basic Methods: charAt(), length(), substring()
+Comparison: equals(), equalsIgnoreCase(), compareTo(), compareToIgnoreCase()
+Search: contains(), indexOf(), lastIndexOf()
+Modification: toLowerCase(), toUpperCase(), replace(), trim()
+Split & Join: split(), join()
+Other: startsWith(), endsWith(), intern()

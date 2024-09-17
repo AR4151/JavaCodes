@@ -15,7 +15,7 @@ class Child extends Parent {
     public static void main(String[] args) {
         Child pp = new Child();
         Parent v = new Parent();
-//        Child p = new Parent();  // Why It's Invalid: The type Child is more specific than Parent.
+        //Child p = new Parent();  // Why It's Invalid: The type Child is more specific than Parent.
         // Since Parent could be just the base class and doesn't have to include the additional members or overridden methods in Child,
         // Java prevents you from assigning a Parent reference to a Child variable without casting.
         Parent vv = new Child();

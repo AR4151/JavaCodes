@@ -19,7 +19,7 @@ public class Heap_SCP {
         System.out.println(s4==s5); // ==> ture
 
         String s6 = "You cannot ";
-        String s7 = s6+"change Me";
+        String s7 = s6 + "change Me";
         System.out.println(s4==s7); // ==> false
 
         final String s8 = "You cannot ";
@@ -27,6 +27,13 @@ public class Heap_SCP {
         String s9 = s8+"change Me";
         System.out.println(s4==s9); // ==> true
 
+
+        //Initial Capacity of StringBuffer
+        StringBuffer ss = new StringBuffer();
+        StringBuilder sg = new StringBuilder();
+        System.out.println(ss.capacity());
+        sg.append("1234567891234567");
+        System.out.println(sg.capacity());
 
 
         StringBuffer sb = new StringBuffer("Roshan");
