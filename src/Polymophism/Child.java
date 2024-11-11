@@ -7,8 +7,8 @@ class Parent{
     }
 }
 class Child extends Parent {
-    @Override
-    final void Test() {
+    //@Override
+    final void Test(int a) {
         System.out.println("Child");;
     }
 

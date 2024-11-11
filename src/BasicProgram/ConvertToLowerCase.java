@@ -1,5 +1,5 @@
 package BasicProgram;
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
 public class ConvertToLowerCase {
     public static void main(String[] args){
@@ -13,6 +13,7 @@ public class ConvertToLowerCase {
 
         String name = "My Name Is Alte Roshan Deepak";
         System.out.println(name.toLowerCase());
+        System.out.println(a.getClass().getName());
 
     }
 }

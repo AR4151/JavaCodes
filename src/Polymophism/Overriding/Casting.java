@@ -1,19 +1,20 @@
 package Polymophism.Overriding;
 
-class Aa{
+class Aaa{
     void Test(){
         System.out.println("Class A-Test");
     }
 }
-class Bb{
+class Bb extends Aaa{
     void Test(){
         System.out.println("Class B-Test");
     }
+
 }
 
 class Casting {
     public static void main(String[] args) {
-        Aa a = new Aa();
+        Aaa a = new Aaa();
         Bb b = new Bb();
         a.Test();
         b.Test();

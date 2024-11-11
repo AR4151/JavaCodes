@@ -34,7 +34,7 @@ public class SwapTwoNumbers {
         int d = sc.nextInt();
         int swap;
 
-        System.out.println("Before Swapping\nThe value of c is "+c+"\nThe value of d is "+d);
+        System.out.println("Before Swapping-\nThe value of c is "+c+"\nThe value of d is "+d);
 
         swap = c;
         c = d;
@@ -43,7 +43,7 @@ public class SwapTwoNumbers {
         //System.out.println(c);
         //System.out.println(d);
         System.out.println();
-        System.out.println("After Swapping\nThe value of c is "+c+"\nThe value of d is "+d);
+        System.out.println("After Swapping-\nThe value of c is "+c+"\nThe value of d is "+d);
 
 
 

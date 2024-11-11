@@ -13,6 +13,7 @@ public class CompareTo {
         System.out.println(s.compareTo("Ro"));
         System.out.println("R".compareTo(s));
         System.out.println(n.compareTo(s));
+        System.out.println(s.compareTo(n));
         System.out.println(r.compareTo(j));
 
 

@@ -19,7 +19,7 @@ class GetSet1 {
         return this.age;
     }
 }
-public class GetSet{
+public class GetSet {
     public static void main(String[] args) {
         GetSet1 gg = new GetSet1();
         gg.setAge(25);

@@ -13,8 +13,6 @@ public class ArrRev {
         for(int i=0;i<Arr.length;i++){
             Reverse[i] = Arr[Arr.length-1-i];
         }
-
-
         System.out.println(Arrays.toString(Reverse));
 
     }

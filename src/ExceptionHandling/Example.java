@@ -5,9 +5,14 @@ public class Example {
         doStuff();
     }
 
-    public static void doStuff() {
+    public static void doStuff() throws ArithmeticException{
         doStuffMore();
-
+        /*try{
+        doStuffMore();
+        }
+        catch(ArithmeticException ae){
+            System.out.println(ae);
+        }*/
     }
 
     public static void doStuffMore() {

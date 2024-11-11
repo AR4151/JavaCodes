@@ -8,6 +8,6 @@ public class ArrAvg {
         for(int i=0;i<Arr.length;i++){
             sum= sum+Arr[i];
         }
-        System.out.println("The Average value of array elements "+sum/Arr.length);
+        System.out.println("The Average value of array elements: "+sum/Arr.length);
     }
 }

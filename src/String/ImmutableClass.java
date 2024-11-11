@@ -23,6 +23,7 @@ public class ImmutableClass {
         System.out.println(t==t1);
         System.out.println(t==t2);
         //System.out.println(t.a=15);
+        Test t5 = new Test(10);
 
     }
 }

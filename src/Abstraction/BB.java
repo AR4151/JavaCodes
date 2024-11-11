@@ -37,6 +37,7 @@ public class BB extends Abs{
         AA a = new AA();
         a.aa();
         a.bb(5,5);
+        System.out.println(a.bb(15,10));
         BB b = new BB();
         b.aa();
         System.out.println(b.bb(10,10));

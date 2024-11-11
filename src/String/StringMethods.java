@@ -1,7 +1,9 @@
 package String;
 
 public class StringMethods {
+    static String ss = "Roshan";
     public static void main(String[] args) {
+        System.out.println(StringMethods.ss);
         String s = "Java Programming  ";
         System.out.println(s.length());
         System.out.println(s.concat("World"));
@@ -14,10 +16,11 @@ public class StringMethods {
         System.out.println(s.trim());
         System.out.println(s.startsWith("Ja"));
         System.out.println(s.endsWith("g"));
-        System.out.println(s.substring(10));
+        System.out.println(s.substring(10,15));
         System.out.println(s.substring(0,4));
         System.out.println(s.isEmpty());
         System.out.println(s.equals("java"));
         System.out.println(s.contains("P"));
+        //System.out.println(s.split(" " ));
     }
 }
