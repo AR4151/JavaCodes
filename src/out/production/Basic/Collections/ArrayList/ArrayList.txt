@@ -1,0 +1,17 @@
+ArrayList can be created in 3 ways.
+
+a) ArrayList() —> It creates an empty ArrayList with initial capacity of 10.
+
+b) ArrayList(int initialCapacity) —> It creates an empty ArrayList with supplied initial capacity.
+
+c) ArrayList(Collection c) —> It creates an ArrayList containing the elements of the supplied collection.
+
+Key Differences
+1|Feature   	|           add()	             |        set()
+2|Purpose   	| Adds a new element to the list.| Updates an existing element in the list.
+3|Index         | Adds at the specified index    | Replaces the element at the specified index.
+|Handling       | (shifts elements to the right).|
+4|Return Value  | Returns true                   |  Returns the replaced element.
+ |              | (or void for indexed version). |
+5|Size Change   |Increases the size of the list. | Does not change the size of the list.
+6|Index Range   |	0 <= index <= size	         | 0 <= index < size

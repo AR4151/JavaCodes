@@ -19,6 +19,7 @@ public class CompareTo {
 
         System.out.println(a.compareTo("2"));
         System.out.println(a.compareTo("52"));
+        System.out.println("52".compareTo(a));
 
     }
 }

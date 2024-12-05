@@ -21,5 +21,7 @@ public class Treemap1 {
         t.put(300, "CCC");
         t.put(30, "CDC");
         System.out.println(t);
+        System.out.println(t.floorKey(300));
+        System.out.println(t.lowerKey(300));
     }
 }

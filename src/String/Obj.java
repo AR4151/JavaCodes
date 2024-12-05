@@ -26,8 +26,33 @@ public class Obj {
         System.out.println(s4==s5);
         System.out.println(s4==s7);
         System.out.println(s4==s9);
+        System.out.println();
 
-        //StringBuffer ss  = new StringBuffer("java");
+        StringBuffer sb  = new StringBuffer("java");
+        System.out.println(sb);
+        sb.append("Program");
+        System.out.println(sb);
+        sb.substring(1,5);
+        System.out.println(sb);
+        System.out.println(sb.charAt(4));
+        sb.replace(0,4,"python");
+        System.out.println(sb);
+        String dt = "java";
+        System.out.println(dt.repeat(5));
+        dt.substring(1,4);
+        StringBuffer sb1  = new StringBuffer("java");
+        System.out.println(sb1);
+        /*1. String Literals
+"Hello " and "Java" are string literals.
+They are created (or retrieved, if already present) in the String Constant Pool (SCP).
+2. Concatenation Process
+The expression s6 + "Java" involves runtime string concatenation, so:
+
+The + operator results in the creation of a new String object in the Heap Memory.
+
+The result of concatenation ("Hello Java") is not automatically placed in the SCP because it is computed at runtime.
+Instead, it is stored in the Heap Memory as a new String object.
+However, if you explicitly call intern() on s7, its value ("Hello Java") will be added to the SCP (if it doesn't already exist):*/
 
 
     }

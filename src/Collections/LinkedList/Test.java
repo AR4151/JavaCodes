@@ -15,6 +15,8 @@ public class Test {
         System.out.println(l.remove());
         System.out.println(l);
         l.set(0,"Roshan");
+        System.out.println(l.get(2));
+        System.out.println();
         System.out.println(l);
         l.add(0,"Roshan");
         System.out.println(l);

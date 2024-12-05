@@ -10,6 +10,7 @@ public class ConModExp {
         l.add(11);
         l.add(18);
         l.add(10);
+        l.add(10);
         //System.out.println(l);
         //l.forEach(System.out::println);
         Runnable r = ()-> {
@@ -18,10 +19,11 @@ public class ConModExp {
         };
         Thread t = new Thread(r);
         t.start();
-        for (Integer i : l) {
-            //Thread.sleep(10);
-            System.out.println(i);
-        }
+//        for(Integer i : l){
+//            System.out.println(i);
+//        }
+
+//      Thread.sleep(50);
         l.forEach(System.out::println);
     }
 

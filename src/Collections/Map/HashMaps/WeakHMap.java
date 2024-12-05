@@ -24,8 +24,9 @@ public class WeakHMap {
         Temp t = new Temp();
         m.put(t,"Roshan");
         System.out.println(m);
+        System.out.println(t);
         t=null;
-        System.gc();;
+        System.gc();
         Thread.sleep(5000);
         System.out.println(m);
 

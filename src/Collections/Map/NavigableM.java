@@ -17,6 +17,11 @@ public class NavigableM {
         System.out.println(t.lowerKey(2500));
         System.out.println(t.ceilingKey(2500));
         System.out.println(t.higherKey(2500));
+        System.out.println();
+        System.out.println(t.floorKey(2000));
+        System.out.println(t.lowerKey(2000));
+        System.out.println(t.ceilingKey(2000));
+        System.out.println(t.higherKey(2000));
         System.out.println(t.firstKey());
         System.out.println(t.lastKey());
         System.out.println(t.descendingMap());

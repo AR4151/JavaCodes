@@ -23,8 +23,10 @@ public class GetSet {
     public static void main(String[] args) {
         GetSet1 gg = new GetSet1();
         gg.setAge(25);
+        gg.setAge(22);
         gg.setName("Roshan");
         System.out.println(gg.getName());
+        System.out.println(gg.getAge());
         System.out.println(gg.getAge());
 
         GetSet1 ggg = new GetSet1();

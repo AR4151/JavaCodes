@@ -9,6 +9,8 @@ public class Practice1 {
         m.put("Shahrukh",6300);
         m.put("Salman",5000);
         m.put("Akshay",5000);
+        m.put(null,5000);
+        //m.put(null,8800);
         System.out.println(m);
         System.out.println(m.put("Salman",5500));
         Set s = m.keySet();
