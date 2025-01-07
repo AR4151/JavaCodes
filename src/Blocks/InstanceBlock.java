@@ -16,10 +16,10 @@ Declare constructors.
 Allowed in instance blocks: Instance variable assignments, instance method calls, control flow, and exception handling.
 */
 class InstanceBlock {
-    int y;
+    //int y;
 
     {
-        y = 20;  // You can initialize instance variables.
+        int y = 20;  // You can assign and declare values to Instance variables.
         System.out.println(y);
         System.out.println("Instance Block Executed");
 

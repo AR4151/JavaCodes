@@ -6,11 +6,11 @@ public class Threading {
             for (int i = 0; i <6 ; i++) {
                 System.out.println("Child Thread");
             }
-            Thread.currentThread().notify();
+            //Thread.currentThread().notify();
         };
         Thread  t = new Thread(r);
         t.start();
-        t.wait();
+        //t.wait();
         for (int i = 0; i < 6; i++) {
             System.out.println("Main Thread");
 

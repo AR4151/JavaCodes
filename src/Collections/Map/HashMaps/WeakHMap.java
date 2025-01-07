@@ -1,6 +1,6 @@
 package Collections.Map.HashMaps;
 
-import java.util.WeakHashMap;
+import java.util.HashMap;
 /*
 1. HashMap behavior:
 toString() method: When you print the HashMap, if the key or value has overridden the toString() method, that overridden
@@ -19,8 +19,8 @@ When GC happens:
 
 public class WeakHMap {
     public static void main(String[] args) throws InterruptedException {
-        WeakHashMap m = new WeakHashMap();
-        //HashMap m = new HashMap();
+//        WeakHashMap m = new WeakHashMap();
+        HashMap m = new HashMap();
         Temp t = new Temp();
         m.put(t,"Roshan");
         System.out.println(m);
@@ -36,6 +36,7 @@ class Temp{
     public String toString(){
         return "temp";
     }
+    @Override
     public void finalize(){
         System.out.println("Finalize Method");
     }

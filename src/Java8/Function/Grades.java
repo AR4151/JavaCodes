@@ -47,7 +47,7 @@ public class Grades {
         }*/
         Consumer<Student> c= c1->{
             System.out.println("Student Name: "+c1.name);
-            System.out.println("Student Marks: "+c1.name);
+            System.out.println("Student Marks: "+c1.marks);
             System.out.println(f1.apply(c1));
             System.out.println();
         };

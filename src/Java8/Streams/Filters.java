@@ -3,6 +3,12 @@ package Java8.Streams;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+Intermediate Operations: Transform streams but are lazy.
+Terminal Operations: Consume streams and produce results, triggering the execution pipeline.
+
+ */
+
 public class Filters {
     public static void main(String[] args) {
         ArrayList<Integer> marks = new ArrayList<>();

@@ -21,7 +21,7 @@ class Test {
     int y;
 
     static {
-        //static int x = 15;
+          int x = 15;
         int t=15;
         System.out.println(t);
         int u=15;

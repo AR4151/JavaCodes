@@ -13,15 +13,15 @@ public class AbCon {
         System.out.println("HI...");
     }
 
+//    public static void main(String[] args) {
+//        System.out.println("Hey..");
+//        AbCon AA = new AbCon();
+//
+//    }
+}
+class AAC extends AbCon{
     public static void main(String[] args) {
-        System.out.println("Hey..");
-        AbCon AA = new AbCon();
-
+        AbCon aa = new AbCon();
+        System.out.println("Hi..");
     }
 }
-//class AA extends AbCon{
-//    public static void main(String[] args) {
-//        //AbCon aa = new AbCon("Hello");
-//        System.out.println("Hi..");
-//    }
-//}

@@ -16,8 +16,8 @@ public class Blocks {
 
     public static void main(String[] args) {
         System.out.println("Main");
-        /*Blocks A = new Blocks();
+        Blocks A = new Blocks();
         Blocks AA = new Blocks();
-        Blocks AAA = new Blocks();*/
+        Blocks AAA = new Blocks();
     }
 }

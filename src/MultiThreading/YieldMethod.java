@@ -6,7 +6,7 @@ class Method extends Thread{
     public void run(){
         for(int i=1;i<=7;i++){
             System.out.println("Child Thread");
-            //Thread.yield();
+            Thread.yield();
         }
     }
 }
@@ -19,7 +19,7 @@ public class YieldMethod {
             Thread.yield();
 
         }
-        System.out.println(m.getPriority());
+       // System.out.println(m.getPriority());
     }
 
 }

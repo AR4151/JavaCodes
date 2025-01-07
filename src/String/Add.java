@@ -14,6 +14,12 @@ public class Add {
     public static void main(String[] args) {
         Add aa = new Add();
         aa.add(null);
+
+        String s = """
+                """;
+
+        String f = "Hello";
+        System.out.println(f.toString());
     }
 
 

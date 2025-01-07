@@ -35,6 +35,7 @@ class TryCatch3{
         catch (Throwable e){
             System.out.println(10/2);
             e.printStackTrace();
+            //System.out.println(e);
         }
         System.out.println("End");
 

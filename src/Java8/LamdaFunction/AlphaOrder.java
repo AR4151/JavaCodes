@@ -12,7 +12,7 @@ public class AlphaOrder {
         return list1;
     }
     public static void main(String[] args) {
-        List<String> str = List.of("Roshan","rohan","Ayush","Shubham","yash");
+        List<String> str = List.of("Roshan","rohan","Ayush","Ayus","Shubham","yash","John, Emma, Oliver, Sophia, Liam, Ava, Noah, Mia, James, Isabella, Elijah, Charlotte, Lucas, Amelia");
         List<String> colors = List.of("Red","pink","Yellow","black","Blue","white","Green","violet");
         System.out.println("Original Names List:");
         System.out.println(str);

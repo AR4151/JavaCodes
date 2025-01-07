@@ -4,8 +4,8 @@ package ExceptionHandling.Top10Exceptions;
 Static Variable assignment and Static block*/
 public class ExpInInitializerError {
     static{
-        //String s = "Roshan";
-        String s = null;
+        String s = "Roshan";
+        s = null;
         System.out.println(s.length());
     }
     //static int a = 10/0;
