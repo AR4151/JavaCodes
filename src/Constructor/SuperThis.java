@@ -12,13 +12,13 @@ package Constructor;
 
 class AA {
     int a;
-    AA(){
-        //this(20);
+     AA(){
+        this(20);
         System.out.println("This is Class AA");//4
     }
     AA(int a){
         //super();
-        this();
+
         System.out.println("This is int a from class AA ");//3
     }
 }
