@@ -20,7 +20,7 @@ public class Cursors {
             System.out.println(e.nextElement());
 
         }
-        System.out.println(e);
+        System.out.println(e.getClass().getName());
 
         ArrayList<Integer> arr = new ArrayList<>();
         arr.add(59);
@@ -33,7 +33,7 @@ public class Cursors {
         while(itr.hasNext()){
             System.out.println(itr.next());
         }
-        System.out.println(itr);
+        System.out.println(itr.getClass().getName());
     }
 
 
