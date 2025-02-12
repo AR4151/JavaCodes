@@ -18,7 +18,7 @@ public class FinallyBlockExample {
                 System.out.println(line);
             }
         } catch (IOException e) {
-            System.out.println("An error occurred while reading the file: " + e.getMessage());
+            System.out.println("An error occurred while reading the file: " + e);
         } finally {
             // Ensure the reader is closed in the finally block
             if (reader != null) {

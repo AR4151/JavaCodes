@@ -42,6 +42,7 @@ import java.util.Set;
                 // Output the result of retainAll
                 System.out.println("After retainAll: set1 = " + set1);
                 System.out.println("Was set1 modified? " + result);
+                System.out.println();
             }
         }
 

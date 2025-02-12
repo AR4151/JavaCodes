@@ -7,7 +7,7 @@ public class Supplier2 {
         Supplier<String> s = ()->{
             String otp = "";
             for(int i=0;i<6;i++){
-                otp = otp+(int)(Math.random()*10);
+                otp = otp + (int)(Math.random()*10);
             }
             return otp;
         };

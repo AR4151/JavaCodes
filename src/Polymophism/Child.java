@@ -23,8 +23,9 @@ class Child extends Parent {
 
         pp.Test(); // ==> Child
         v.Test(); // ==> Parent
-        vv.Test(); // ==> Child
+        vv.Test(); // ==> Child Parent
         ss.Test(); // ==> Parent-Child
+
 
     }
 }
@@ -36,12 +37,10 @@ class Sub extends Parent{
 
 }
 class SubClass extends Child{
-    /* If the method is final then only that method we cannot Override in another Subclass.
+    /*// If the method is final then only that method we cannot Override in another Subclass.
     @Override
-    void Test(){
+    void Test(int a){
         System.out.println("Parent-->SubChild");
-    }
-    */
-
+    }*/
 
 }

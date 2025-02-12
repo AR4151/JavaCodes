@@ -11,6 +11,12 @@ import java.util.stream.Collectors;
 
  flatMap() operation takes Stream<Stream<T> as input and produces a result Stream of type R. It’s mapper function produces
  multiple values for each value of input stream and those multiple values are flattened into a result Stream<R>.
+
+   In the context of Java Streams, T and R are type parameters used to represent generic types. Here's what they mean:
+    T: This represents the type of elements in the input stream. It is a placeholder for any type, and it is used to
+     indicate that the stream can contain elements of any type.
+    R: This represents the type of elements in the resulting stream after applying a transformation. It is also a
+     placeholder for any type, indicating that the resulting stream can contain elements of any type.
  */
 
 public class Institute {
@@ -43,5 +49,9 @@ public class Institute {
         //Q2-> Get unique locations of all institutes
         List<String> getAllLocations = instituteList.stream().flatMap(institute -> institute.getLocations().stream()).distinct().collect(Collectors.toList());
         System.out.println("The unique locations are: \n"+getAllLocations);
+
+        final Object Present = new Object();
+        System.out.println(Present);
+
     }
 }

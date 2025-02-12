@@ -10,9 +10,9 @@ public class ReThrowing {
             System.out.println("Re-Throwing --> We can use this approach to convert ONE Exception to ANOTHER  Exception");
         }
         catch (ArithmeticException e){
-            e.printStackTrace();
+            //e.printStackTrace();
             System.out.println("Exception --> "+ e);
-            //throw new NullPointerException("Exception in Catch Block "+e.getMessage());
+            throw new NullPointerException("Exception in Catch Block "+e.getMessage());
             //System.out.println("End of try-catch block");
             //e.printStackTrace();
         }

@@ -5,9 +5,10 @@ import java.util.List;
 
 
 public class EmpList {
-    public static void main(String[] args) {
-        List<Employee> employeeList = new ArrayList<>();
 
+    static List<Employee> employeeList = new ArrayList<>();
+
+    static{
         employeeList.add(new Employee(111, "Jiya Brein", 32, "Female", "HR", 2011, 25000.0));
         employeeList.add(new Employee(122, "Paul Niksui", 25, "Male", "Sales And Marketing", 2015, 13500.0));
         employeeList.add(new Employee(133, "Martin Theron", 29, "Male", "Infrastructure", 2012, 18000.0));
@@ -25,6 +26,11 @@ public class EmpList {
         employeeList.add(new Employee(255, "Ali Baig", 23, "Male", "Infrastructure", 2018, 12700.0));
         employeeList.add(new Employee(266, "Sanvi Pandey", 26, "Female", "Product Development", 2015, 28900.0));
         employeeList.add(new Employee(277, "Anuj Chettiar", 31, "Male", "Product Development", 2012, 35700.0));
+    }
+    public static void main(String[] args) {
+
+
+
         System.out.println("Number of Employees in Company are "+employeeList.size());
         //System.out.println(employeeList);
 

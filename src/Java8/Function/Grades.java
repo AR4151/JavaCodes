@@ -19,6 +19,8 @@ public class Grades {
                 new Student("Raj", 55),
                 new Student("Rakesh", 35)};
 
+
+
         Function<Student, String> f1 = s1 -> {
             String grade;
             if (s1.marks >= 80) grade = "Grade: A (Distinction)";

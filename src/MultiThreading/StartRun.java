@@ -1,7 +1,7 @@
 package MultiThreading;
 
 public class StartRun extends Thread{
-    public void run(){
+    public void run() {
         for(int i=0;i<6;i++){
             System.out.println("Child Thread1");
         }

@@ -11,6 +11,9 @@ public class PriorityQ {
             q.offer(i);
         }
         System.out.println(q);
+        q.add(15);
+        q.offer(20);
+        q.offer(20);
         System.out.println(q.peek());
         System.out.println(q.element());
         System.out.println(q.poll());

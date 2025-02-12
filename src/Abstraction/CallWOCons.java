@@ -19,9 +19,31 @@ class Student extends Person{
         this.rollNo=rollNo;
         this.marks=marks;
     }
+
+    /*public Student() {
+
+    }*/
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "rollNo=" + rollNo +
+                ", marks=" + marks +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
 
 public class CallWOCons {
+    public static void main(String[] args) {
 
+
+        Student ss = new Student("Raj", 19, 40, 60);
+        //Student ss1 = new Student();
+        System.out.println(ss);
+
+
+    }
 }
 

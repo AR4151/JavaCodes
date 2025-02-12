@@ -2,11 +2,11 @@ package Polymophism;
 
 public class Conversion {
     void m1(int a){
-        System.out.println(a);
+        System.out.println("Int "+a);
 
     }
     void m1(float a){
-        System.out.println(a);
+        System.out.println("float "+a);
 
     }
 

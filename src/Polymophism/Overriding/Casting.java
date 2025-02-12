@@ -16,7 +16,9 @@ class Casting {
     public static void main(String[] args) {
         Aaa a = new Aaa();
         Bb b = new Bb();
+        Aaa bb = new Bb();
         a.Test();
         b.Test();
+        bb.Test();
     }
 }

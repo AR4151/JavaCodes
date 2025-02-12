@@ -1,7 +1,7 @@
 package ExceptionHandling.Top10Exceptions;
 
 /* ArrayIndexOutOfBoundsException child class of IndexOutOfBoundsException it is child class of RunTimeException.
-   So it is Unchecked Exception.It is raised by JVM automatically4
+   So it is Unchecked Exception.It is raised by JVM automatically
     */
 
 
