@@ -26,6 +26,10 @@ import java.util.Set;
                 set1.add(62);
                 set1.add(32);
                 set1.add(82);
+                set1.add(null);
+                set1.add(null);
+                set1.add(null);
+                set1.add(null);
                 //set1.add(22);
 
                 // Adding elements to set

@@ -10,7 +10,7 @@ public class Comparison {
         System.out.println(S1.equals(S2));
         System.out.println();
         /*
-        For String-
+        For String -
         In simple words,In String == checks the Object Reference/Address.
         .equals() checks the Content.(String cannot Overriden)
         */

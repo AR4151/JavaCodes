@@ -8,6 +8,11 @@ public class EnsCap {
         List<Integer> l = new ArrayList<>();
         l.add(15);
         l.add(10);
+        l.add(null);
+        l.add(null);
+        l.add(null);
+        l.add(null);
+        l.add(null);
         l.add(10);
         l.add(11);
         l.add(20);

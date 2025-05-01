@@ -10,11 +10,12 @@ public class  ClassCastExp {
 
         //This is correct,because we can typecast child ref to parent class ref.
         String s = new String("Roshan");
-        //Object o = (Object) s;
-        //System.out.println(o);
+        Object o = (Object) s;
+        System.out.println(o);
         Object oo = new Object();
-        String ss = (String) oo; // String ss = (String) o --> this is valid because Obj ref is still pointing towards String obj or reference.
-        System.out.println(ss);
+        //String ss = (String) oo; // String ss = (String) o --> this is valid because Obj ref is still pointing towards
+        // String obj or reference.
+        //System.out.println(ss);
     }
 
 }

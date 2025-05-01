@@ -7,12 +7,12 @@ public class PriorityQ1 {
     public static void main(String[] args) {
         PriorityQueue q = new PriorityQueue(15, new MyComparator());
 
-        q.offer(null);
-        /*q.offer("A");
+        //q.offer(null);
+        q.offer("A");
 
         q.offer("Z");
         q.offer("L");
-        q.offer("B");*/
+        q.offer("B");
         System.out.println(q);
     }
 }

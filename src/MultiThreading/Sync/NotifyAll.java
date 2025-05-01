@@ -30,6 +30,7 @@ public class NotifyAll {
         synchronized (thread1) {
             thread1.notifyAll();  // Wakes up all waiting threads
         }
+
     }
 }
 

@@ -60,8 +60,10 @@ public class EmpList1 {
         System.out.println();
 
         // Q8-> Find the 2nd Highest Salary from the organization?
-        Optional<Employee> secHighSal = employeeList.stream().sorted((e1,e2)->Double.compare(e2.getSalary(),e1.getSalary())).skip(1).findFirst();
-        List<Employee> secHighSal1 = employeeList.stream().sorted((e1,e2)->Double.compare(e2.getSalary(),e1.getSalary())).skip(1).limit(1).toList();
+        Optional<Employee> secHighSal = employeeList.stream().sorted((e1,e2)->Double.compare(e2.getSalary(),e1.getSalary()))
+                .skip(1).findFirst();
+        List<Employee> secHighSal1 = employeeList.stream().sorted((e1,e2)->Double.compare(e2.getSalary(),e1.getSalary()))
+                .skip(1).limit(1).toList();
         System.out.println(secHighSal.get());
         System.out.println(secHighSal1);
         System.out.println();
@@ -82,18 +84,23 @@ public class EmpList1 {
 
         // Q11-> How many male and female employees are there in the sales and marketing team?
         Map<String,Long> noOfMalesFemales = employeeList.stream().filter(e->e.getDepartment().equals("Sales And Marketing"))
-                .collect(Collectors.groupingBy(e->e.getGender(),Collectors.counting()));
+                .collect(Collectors.groupingBy(Employee::getGender,Collectors.counting()));
         System.out.println("male and female employees in the sales and marketing team");
         System.out.println(noOfMalesFemales);
 
         // Q12->  What is the average salary of male and female employees?
-        Map<String,Double> avgSal = employeeList.stream().collect(Collectors.groupingBy(Employee::getGender,Collectors.averagingDouble(Employee::getSalary)));
+        Map<String,Double> avgSal = employeeList.stream().collect(Collectors.groupingBy(Employee::getGender,Collectors.collectingAndThen(Collectors.averagingDouble(Employee::getSalary),avg-> Math.round(avg*100.0)/100.0)));
         System.out.println(avgSal);
+        System.out.println();
 
 
+        Map<String, List<Employee>> employeeListByDepartment=
+                employeeList.stream().collect(Collectors.groupingBy(Employee::getDepartment));
 
-
-
+        employeeListByDepartment.forEach((department, employees) -> {
+            System.out.println("Department: " + department);
+            employees.forEach(e -> System.out.println("ID: " + e.getId() + "\n" + "Name: " + e.getName() + "\n" + "Age: " + e.getAge()));
+        });
 
 
 

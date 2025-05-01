@@ -25,6 +25,7 @@ class Join{
 
         MyThread5 t = new MyThread5();
         t.start();
+        //t.interrupt();
         /*try {
             t.join();
         }

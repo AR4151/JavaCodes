@@ -1,15 +1,17 @@
 package Polymophism;
 
 
-class Parent{
-    void Test(){
+class Parent {
+    void Test() {
         System.out.println("Parent");
     }
 }
+
 class Child extends Parent {
     //@Override
     final void Test(int a) {
-        System.out.println("Child");;
+        System.out.println("Child");
+        ;
     }
 
     public static void main(String[] args) {
@@ -29,14 +31,16 @@ class Child extends Parent {
 
     }
 }
-class Sub extends Parent{
+
+class Sub extends Parent {
     @Override
-    void Test(){
+    void Test() {
         System.out.println("Parent-->SubChild");
     }
 
 }
-class SubClass extends Child{
+
+class SubClass extends Child {
     /*// If the method is final then only that method we cannot Override in another Subclass.
     @Override
     void Test(int a){

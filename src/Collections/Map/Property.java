@@ -14,6 +14,9 @@ public class Property {
         String s = p.getProperty("name");
         System.out.println(s);
         p.setProperty("Roshan", "8500");
+        String s1 = p.getProperty("Roshan");
+        System.out.println(s1);
+        p.setProperty("user","David");
         FileOutputStream fos = new FileOutputStream("D:\\Java_Programs\\Basic\\src\\Collections\\Map\\abc.txt");
         p.store(fos,"Updated by Roshan");
     }

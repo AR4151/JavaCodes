@@ -21,12 +21,13 @@ public class Employee implements Comparable{
         int eid1 = this.eid;
         Employee e = (Employee) obj;
         int eid2 = e.eid;
-        if(eid1 < eid2){
+        /*if(eid1 < eid2){
             return -1;
         } else if (eid1 > eid2) {
            return +1;
         }
-        else return 0;
+        else return 0;*/
+        return -Integer.compare(eid,eid2);
     }
 }
  class Comp{

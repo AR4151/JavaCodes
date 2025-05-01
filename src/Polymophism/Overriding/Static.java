@@ -8,7 +8,7 @@ class Stat{
 
 class Static extends Stat{
 
-    static void Main(){      /* We cannot Override Static Method in subclass its not Overriding but its Method Hiding
+    static void Main(){      /* We cannot Override Static Method in subclass it's not Overriding but its Method Hiding,
                                 but we can Re-declare that static method.
                                 So, whatever Static Belongs to Class not to Instance or Object */
         System.out.println("Static");

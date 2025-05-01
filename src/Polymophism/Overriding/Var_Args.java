@@ -6,7 +6,7 @@ class Args {
         System.out.println("Args_Class");
 
      /*
-     So here, its not Overriding.Var-Args methods can only be Overridden by Var-Args methods not by any other
+     So here, it's not Overriding.Var-Args methods can only be Overridden by Var-Args methods not by any other
      So here, method resolution take care by the Compiler not by JVM because it's not Overriding if i make int...x to int x, then
      it is Overriding and the Method Resolution take care by the JVM and Output will be 1)Args_Class==>Var_Args_Class==>Var_Args_Class.
                                                */
